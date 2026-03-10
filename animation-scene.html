@@ -7,9 +7,15 @@
     <body>
         <a-scene>
             <!-- Set the sky -->
-            <a-sky color="black"></a-sky>
-            <a-icosahedron
-            
+            <a-sky color="lightblue"></a-sky>
+            <a-icosahedron color="blue"
+            animation="
+            property: position
+                from: 0 1 -22;
+                to: 0 1 4;
+                loop: true;
+                dir: alternate;
+                "
         </a-scene>
     </body>
 </html>
